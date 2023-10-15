@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ffccd5;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .main-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .shop-button {
+            background-color: #ff9999;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #ffccd5;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Business Name</h1>
+        <img src="path_to_your_elf_girl_logo.png" alt="Green Hair Elf Girl Logo" width="100">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop Now</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <div class="main-section" id="home">
+        <h2>Welcome to Our Video Game Themed Stud Earrings Store!</h2>
+        <p>Discover our unique and cute kawaii designs inspired by your favorite video games.</p>
+        <button class="shop-button" onclick="location.href='#shop'">Shop Now</button>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Insert your business story, when and why you started, what inspires your designs, etc.</p>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <p>Answers to common questions like shipping details, return policies, earring care, etc.</p>
+    </section>
+
+    <footer>
+        <p>Follow us on: [Social Media Links]</p>
+        <p>Contact: your_email@example.com | +1234567890</p>
+    </footer>
+</body>
+</html>
